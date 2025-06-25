@@ -13,6 +13,6 @@
        enabled: true
    - name: indexfile set
      ansible.builtin.copy:
-       content: "Welcome MyHomePage"
+       content: "Welcome MyHomePage Antony Vernon"
        dest: /var/www/html/index.html
            

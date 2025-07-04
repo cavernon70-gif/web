@@ -12,7 +12,7 @@
        state: started
        enabled: true
    - name: indexfile set
-     ansible.builtin.copy:
-       content: "Welcome MyHomePage Antony Vernon"
+     ansible.builtin.template:
+       src: index.j2
        dest: /var/www/html/index.html
            

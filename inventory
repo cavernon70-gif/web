@@ -1,2 +1,2 @@
 [webservers]
-serverd.lab.example.com
+server[a:f].lab.example.com

@@ -1,0 +1,5 @@
+---
+- name: test collection play
+  hosts: webservers
+  roles:
+   - forscher.gowri.mymotd
